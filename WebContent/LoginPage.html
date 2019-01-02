@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Jeopardy Welcome Page</title>
+<link rel="stylesheet" href="styles/main.css" type="text/css">
+</head>
+<body class="login-image">
+	<audio autoplay>
+     	<source src="audio/Intro.mp3" type="audio/mp3">
+	</audio>
+	<div class="login">
+		<form action="LoginServlet" method="get">
+			<table>
+				<tr>
+					<h2>Welcome to Jeopardy</h2>
+					<td><h3>Enter Name:</h3></td>
+					<td><input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="Let's Play"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

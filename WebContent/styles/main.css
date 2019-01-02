@@ -1,0 +1,135 @@
+body {
+	font-family: Arial, Helvetta, sans-serif;
+	width:1280px;
+	min-height:720px;
+	max-height:720px;
+	margin: auto;
+	background-color: #1f0752;
+}
+
+a:link, a:visited {
+    color: #E6AB62;
+    text-decoration: none;
+}
+
+.login-image {
+	background-image: url("../images/Jeopardy.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-width: 100%;
+}
+
+.login {
+	background-color: white;
+	border-radius: 15px;
+	width: 400px;
+	height: 150px;
+	margin: 500px auto 0 auto;
+	padding: 15px;
+}
+
+.login h2 {
+	color:#0c0c0c;
+	margin:0;
+}
+
+table {
+	width=100%;
+}
+
+.login td {
+	text-align: center;
+}
+
+
+input[type="text"] {
+	width:250px;
+	height: 30px;
+	border-radius: 15px;
+	border-style: solid;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+input[type="submit"] {
+	width:100px;
+	height: 40px;
+	border-radius: 20px;
+	border-style: none;
+	background-color: #1f0752;
+	color: white;
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+.bigbutton input[type="submit"] {
+	width:200px;
+	height: 80px;
+	border-radius: 40px;
+	font-size: 1.5em;
+}
+
+.gameboard {
+	text-align: center;
+	margin: auto;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.gameboard td {
+	font-family: Calibri, Arial, Helvetta, sans-serif;
+	background-color: #0007A0;
+	width: 225px;
+	height: 100px;
+	border: 5px solid black;
+	text-align: center;
+}
+
+.gameboardValues {
+	color: #E6AB62;
+	font-size: 4em;
+	font-weight: bold;
+	
+}
+
+.gameboardHeadings {
+	font-weight: bold;
+	color: white;
+	font-size: 2em;
+}
+
+.question {
+	font-family: Calibri, Arial, Helvetta, sans-serif;
+	background-color: #0007A0;
+	width: 1165px;
+	height: 754px;
+	border: 5px solid black;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 4.5em;
+	font-weight: bold;
+}
+
+.question input[type="submit"] {
+	width:200px;
+	height: 80px;
+	border-radius: 40px;
+	font-size: .45em;
+}
+
+.enterWager input[type="number"] {
+	width:500px;
+	height: 100px;
+	border-radius: 50px;
+	border-style: none;
+	text-align: center;
+	color: #1f0752;
+	font-weight: bold;
+	font-size: 1.15em;
+	margin-bottom: 20px;
+}
